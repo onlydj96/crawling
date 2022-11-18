@@ -12,3 +12,6 @@ soup = BeautifulSoup(res.text, 'lxml')
 
 print(res.text)
 # print(soup.find("div",  attrs={"class":"c_card"}))
+
+
+"Experiment!!"
