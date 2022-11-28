@@ -21,5 +21,5 @@ for year in range(2015, 2020):
         with open('movie_{}_{}.jpg'.format(year, index+1), 'wb') as f:
             f.write(image_res.content)
         
-        if index == 4:
+        if index == 4:  # 상위 5개의 이미지만 다운로드
             break
